@@ -1,0 +1,35 @@
+package ChuViTamGiac;
+
+public class Triangle extends Point{
+    private Point p1;
+    private Point p2;
+    private Point p3;
+
+    public Triangle(Point p1, Point p2, Point p3) {
+        this.p1 = p1;
+        this.p2 = p2;
+        this.p3 = p3;
+    }
+
+    public Triangle(double x, double y, Point p1, Point p2, Point p3) {
+        super(x, y);
+        this.p1 = p1;
+        this.p2 = p2;
+        this.p3 = p3;
+    }
+
+    private boolean isTriangle(){
+        return distance(p1, p2) + distance(p2, p3) > distance(p1, p3)
+                && distance(p1, p3) + distance(p2, p3) > distance(p1, p2)
+                && distance(p1, p3) + distance(p1, p2) > distance(p2, p3);
+    }
+
+    public double perimeter(){
+        return distance(p1, p2) + distance(p2, p3) + distance(p1, p3);
+    }
+
+    @Override
+    public String toString() {
+        return isTriangle() ? String.format("%.3f", perimeter()):"INVALID";
+    }
+}
