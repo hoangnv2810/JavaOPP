@@ -1,9 +1,11 @@
 package Test;
 
+import java.text.Format;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.Temporal;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -37,29 +39,28 @@ public class Test {
 //        long diffDays = diff/(24*60*60*1000);
 //        System.out.println(diffHours + ":" + diffMinutes);
 
-//        Format f = new SimpleDateFormat("HH mm ss");
-//        System.out.println(f.format(new Date()));
+        Format f = new SimpleDateFormat("HH mm ss");
+        System.out.println(f.format(new Date()));
 
-//        System.out.println(Math.round(5.56*10.0)/10.0);
 
 //        String name = "Nguyen Van A";
 //        System.out.println(name.contains(" "));
 
-//        Date d = new SimpleDateFormat("dd/MM/yyyy").parse("28/10/2001");
-//        Calendar c = Calendar.getInstance();
-//        c.setTime(d);
-//        int year = c.get(Calendar.YEAR);
-//        int month = c.get(Calendar.MONTH)+1;
-//        int date = c.get(Calendar.DATE);
-//        LocalDate ld = LocalDate.of(year, month, date);
-//        LocalDate now = LocalDate.now();
-//        Period diff = Period.between(ld, now);
-//
-//        System.out.println(diff.toString());
+        Date d = new SimpleDateFormat("dd/MM/yyyy").parse("28/10/2001");
+        Calendar c = Calendar.getInstance();
+        c.setTime(d);
+        int year = c.get(Calendar.YEAR);
+        int month = c.get(Calendar.MONTH)+1;
+        int date = c.get(Calendar.DATE);
+        LocalDate ld = LocalDate.of(year, month, date);
+        LocalDate now = LocalDate.now();
+        Period diff = Period.between(ld, now);
+        System.out.println(diff.getYears() + " " + diff.getMonths() + " " + diff.getDays());
+
+        String s = "KHf ke toan";
+        System.out.println(s.indexOf(" "));
 
 
-
-        //
 //        Date date = new Date();
 //
 //        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEEE");
