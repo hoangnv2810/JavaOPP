@@ -1,34 +1,41 @@
 package SapXepThoiGian;
 
-import java.util.StringTokenizer;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class Time implements Comparable<Time>{
-    private String time;
+    private int gio, phut, giay;
 
-    public Time(String time){
-        this.time = time;
-        handle();
-    }
-
-    public void handle(){
-        StringBuilder sb = new StringBuilder();
-        StringTokenizer st = new StringTokenizer(time);
-        while(st.hasMoreTokens()){
-            String t = st.nextToken();
-            sb.append(t+" ");
-        }
-        time = sb.toString().trim();
+    public Time(int gio, int phut, int giay) {
+        this.gio = gio;
+        this.phut = phut;
+        this.giay = giay;
     }
 
     @Override
     public int compareTo(Time o) {
-        if(time.compareTo(o.time) > 0) return 1;
-        if(time.compareTo(o.time) < 0) return -1;
-        return 0;
+        if(gio > o.gio){
+            return 1;
+        } else if(gio == o.gio){
+            if(phut > o.phut){
+                return 1;
+            } else if(phut == o.phut){
+                if(giay > o.giay){
+                    return 1;
+                } else {
+                    return -1;
+                }
+            } else {
+                return -1;
+            }
+        }
+        return -1;
     }
 
     @Override
     public String toString() {
-        return time;
+        return gio + " " + phut + " " + giay;
     }
 }

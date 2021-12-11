@@ -9,29 +9,20 @@ public class J02005 {
         int m = sc.nextInt();
         int a[] = new int[n];
         int b[] = new int[m];
-        Set<Integer> s = new HashSet<>();
+        Set<Integer> s1 = new TreeSet<>();
         for(int i = 0; i < n; i++){
             a[i] = sc.nextInt();
-            s.add(a[i]);
+            s1.add(a[i]);
         }
-        Object[] c = s.toArray();
-        Set<Integer> g = new HashSet<>();
+        Set<Integer> s2 = new TreeSet<>();
         for(int i = 0; i < m; i++){
             b[i] = sc.nextInt();
-            g.add(b[i]);
+            s2.add(b[i]);
         }
-
-//        Object[] d = g.toArray();
-//        int i = 0, j = 0;
-//        while(i < n && j < m){
-//            if(c[i] < d[j]){
-//                i++;
-//            } else if(c[i] > d[j]){
-//                j++;
-//            } else {
-//                System.out.print();
-//            }
-//        }
+        s1.retainAll(s2);
+        for(Integer x:s1){
+            System.out.print(x+" ");
+        }
 
     }
 }

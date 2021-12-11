@@ -1,17 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd1e74b6-3e8a-4128-b82b-0e1cce35c12e" name="Changes" comment="" />
+    <list default="true" id="fd1e74b6-3e8a-4128-b82b-0e1cce35c12e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BT/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BT1611/.idea/BT1611.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BT1611/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BT1611/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BT1611/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/ant.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/BAITAP.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/DATA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/DATA1.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/DATA2.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/File.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/GIANGVIEN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/GIOCHUAN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/HD.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/Hello.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/KH.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/MH.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/MONHOC.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/NHOM.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/POLYGON.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/SINHVIEN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/SV.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/Test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/VANBAN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/out/production/File/HelloFile/HELLOFILE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/outDOT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/outFOS.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/snt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/songuyen.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ChuaHoaDanhSachSinhVien/J6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ChuaHoaDanhSachSinhVien/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ChuanHoaXauHoTenTrongFile.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ChuanHoaXauHoTenTrongFile/J07021.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/DanhSachSinhVienTrongFile1/J07033.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/DanhSachSinhVienTrongFile1/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/DanhSachSinhVienTrongFileVanBan/J07010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/DanhSachSinhVienTrongFileVanBan/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/DocFileVanBan/J07001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HelloFile/HELLOFILE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HieuCuaHaiTapTu.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HieuCuaHaiTapTu/J07024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HieuCuaHaiTapTu/WordSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon1/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon1/J07019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon1/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon2/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon2/J07020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon2/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HoaDon2/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HopVaGiaoCuaHaiFileVanBan/J3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/HopVaGiaoCuaHaiFileVanBan/WordSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LietKeTuKhacNhau/J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LietKeTuKhacNhau/WordSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LoaiBoSoNguyen/J07022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LopPair/J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LopPair/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LopPolygon/J07026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LopPolygon/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/LopPolygon/Polygon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/NguyenToThuanNghich/J07023.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/QuanLyBaiTapNhom.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/QuanLyBaiTapNhom/BaiTap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/QuanLyBaiTapNhom/J07027.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/QuanLyBaiTapNhom/Nhom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/QuanLyBaiTapNhom/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoKhacNhauTrongFile/J07004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoKhacNhauTrongFile2/J07005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoKhacNhauTrongFile3.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoKhacNhauTrongFile3/J07006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoNguyenToLonNhatTrongFile.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoNguyenToLonNhatTrongFile/J07029.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoNguyenToTrongFileNhiPhan/J4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/SoNguyenToTrongHaiFileNhiPhan/J07016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ThongKeTuKhacNhauTrongFileNhiPhan.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ThongKeTuKhacNhauTrongFileNhiPhan/J07012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ThongKeTuKhacNhauTrongFileNhiPhan/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ThongKeTuKhacNhauTrongFileVanBan/J07011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/ThongKeTuKhacNhauTrongFileVanBan/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhGioChuan.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhGioChuan/GiangVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhGioChuan/GioChuan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhGioChuan/J07028.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhGioChuan/MonHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../File/src/TinhTong/J1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/JavaCollection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/BienDoiST.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/BienDoiST.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/BienDoiST/J08026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/BienDoiST/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/CapSoCoTongBangK/J08015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/DayNgoacDungDaiNhat/J08021.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/HinhChuNhatLonNhat/J08023.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/HinhSao/J08012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/KiemTraDayNgoacDung/J08020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/LietKeVaDem/J08011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/LietKeVaDem/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/PhanTuBenPhaiDauTienLonHon/J08022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/QuayHinhVuong.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/QuayHinhVuong/J08025.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/QuayHinhVuong/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/So0Va9/J08024.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/Test.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/Test/J07016main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaCollection/src/TimTuThuanNgichDaiNhat/J08010.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/libraries/mysql_connector_java_8_0_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/JavaFXCRUD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/Main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/images/add1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/images/icons8-restart-480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/images/icons8-restart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFXCRUD/src/com/example/images/updated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTinhCong.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTinhCong/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTinhCong/J04012.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTuyenSinh.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTuyenSinh/J04013.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BaiToanTuyenSinh/ThiSinh.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BonDiemTrenMatPhang.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BonDiemTrenMatPhang/J04011.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/BonDiemTrenMatPhang/Point3D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/ChuViTamGiac.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/ChuViTamGiac/J04008.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/ChuViTamGiac/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/ChuViTamGiac/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichHinhTronNgoaiTiepTamGiac.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichHinhTronNgoaiTiepTamGiac/J04010.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichHinhTronNgoaiTiepTamGiac/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichHinhTronNgoaiTiepTamGiac/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichTamGiac.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichTamGiac/J04009.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichTamGiac/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/DienTichTamGiac/Triangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopHinhChuNhat.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopHinhChuNhat/J04002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopHinhChuNhat/Rectange.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopNhanVien.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopNhanVien/J04007.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopNhanVien/NhanVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopPoint.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopPoint/J04001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopPoint/Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TinhToanPhanSo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TinhToanPhanSo/J04014.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TinhToanPhanSo/PhanSo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TongPhanSo.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TongPhanSo/J04004.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/TongPhanSo/PhanSo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopIntset.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopIntset/IntSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopIntset/J04021.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopPair.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopPair/J04020.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopPair/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopTriangle.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopTriangle/J04019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopTriangle/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/LopTriangle/Triangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TichHaiDoiTuongMaTran/J04016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TichHaiDoiTuongMaTran/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TichMaTranVoiChuyenViCuaNo/J04017.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TichMaTranVoiChuyenViCuaNo/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TinhThuNhapGiaoVien.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TinhThuNhapGiaoVien/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/TinhThuNhapGiaoVien/J04015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/LearnException.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/build.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/manifest.mf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/nbproject/build-impl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/nbproject/genfiles.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/nbproject/project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/nbproject/project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/binary/Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/binary/Ex6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/binary/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/learnexception/GPAException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/learnexception/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LearnException/src/learnexception/LearnException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mang/src/SoKhongLienKe/J01018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/BangThuNhapGiaoVien/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/BangThuNhapGiaoVien/J05064.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DanhSachKhachHang.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DanhSachKhachHang/J05082.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DanhSachKhachHang/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DanhSachMatHang/J50581.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DanhSachMatHang/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DuaXeDap.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DuaXeDap/J05015.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/DuaXeDap/ThiSinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/HoaDonKhachSan.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/HoaDonKhachSan/J05016.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/HoaDonKhachSan/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/HoaDonTienNuoc/J05017.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/HoaDonTienNuoc/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/KetQuaXetTuyen.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan1.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan1/HocPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan1/J05079.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan2/HocPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/LopHocPhan2/J05080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/NhapXuatHang.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/NhapXuatHang/J05076.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/NhapXuatHang/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/NhapXuatHang/ThongKe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepKetQuaXetTuyen.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepKetQuaXetTuyen/J05061.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepKetQuaXetTuyen/ThiSinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TimKiemNhanVienTheoTen/J05066.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TimKiemNhanVienTheoTen/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh1/CuocGoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh1/J05071.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh1/Tinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh2/CuocGoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh2/J05072.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhCuocDienThoaiCoDinh2/Tinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhTien.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhTien/J05012.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhTien/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhToanGiaBan.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhToanGiaBan/DonHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TinhToanGiaBan/J05073.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TuyenDung/J05013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TuyenDung/ThiSinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TuyenGiaoVien.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TuyenGiaoVien/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TuyenGiaoVien/J05014.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/QuanHeGiuaCacLop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/BangTinhGioChuan/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/BangTinhGioChuan/GiangVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/BangTinhGioChuan/J06007.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/BangTinhGioChuan/MonHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom1/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom1/J06003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom2/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom2/J06004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBaiTapNhom2/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang1.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang1/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang1/J06005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang1/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang1/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang2/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang2/J06006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang2/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/QuanLyBanHang2/MatHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/SapXepHoaDonQuanAo.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/SapXepHoaDonQuanAo/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/SapXepHoaDonQuanAo/J06002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/SapXepHoaDonQuanAo/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhGioChuanChoTungGiangVien/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhGioChuanChoTungGiangVien/GiangVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhGioChuanChoTungGiangVien/J06008.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhGioChuanChoTungGiangVien/MonHoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhToanHoaDonBanQuanAo.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhToanHoaDonBanQuanAo/HoaDon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhToanHoaDonBanQuanAo/J06001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuanHeGiuaCacLop/src/TinhToanHoaDonBanQuanAo/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/DN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/SINHVIEN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/TH02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/THUCTAP.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/Text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/CapSoNguyenTrongFile/J1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachDoanhNghiep.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachDoanhNghiep/DoanhNghiep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachSinhVien.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachSinhVien/J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachSinhVien/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachThucTap/DoanhNghiep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachThucTap/J4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachThucTap/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/DanhSachThucTap/ThucTap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH02/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/DATA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/KHACH.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/MUAHANG.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/NHIPHAN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/PHONG.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/SANPHAM.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/VANBAN.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/out/production/TH1711/DanhSachLuuTru/Khach.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/out/production/TH1711/QuanLyKhachSan/KhachHang.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachLuuTru.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachLuuTru/J3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachLuuTru/Khach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachSanPham2.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachSanPham2/J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/DanhSachSanPham2/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/LietKeCapSo1.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/LietKeTheoThuTuXuat/J1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/LoaiPhong.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/LoaiPhong/J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/LoaiPhong/LoaiPhong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/QuanLyKhachSan.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/QuanLyKhachSan/J4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/QuanLyKhachSan/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/QuanLyKhachSan/LoaiPhong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/Test1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/TinhNgayHetHanBaoHanh.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/TinhNgayHetHanBaoHanh/J6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/TinhNgayHetHanBaoHanh/KhachHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/TinhNgayHetHanBaoHanh/SanPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/test.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/test/J7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH1711/src/test/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/TH2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TH2/src/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test2/src/QuanLyKhoXangDau.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/Test29.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/BangThuNhapGiaoVien/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/BangThuNhapGiaoVien/J7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/LietKeNhapVienTheoNhom/J8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/LietKeNhapVienTheoNhom/NhanVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/SoTamPhan/SoTamPhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/TichHaiDoiTuongMaTran/J5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/TichHaiDoiTuongMaTran/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/TinhThuNhapGiaoVien/GiaoVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/TinhThuNhapGiaoVien/J6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/XepHang/J2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test29/src/XepHang/XepHang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VaoRaFile/VaoRaFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VaoRaFile/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VaoRaFile/src/Learn/T1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DATA.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BienSoDep/J03040.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ChiaHet/J03039.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DanhDauChuCai/J03038.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SoChinhPhuong/J01026.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TachDoiVaTinhTong/J07003.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien/J04006.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien/J04006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien/SinhVien.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/KhaiBaoLopSinhVien/SinhVien.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/build/classes/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/out/production/KhaiBaoLopVaDoiTuong/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/out/production/KhaiBaoLopVaDoiTuong/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/out/production/KhaiBaoLopVaDoiTuong/TinhToanPhanSo.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/out/production/KhaiBaoLopVaDoiTuong/TinhToanPhanSo.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KhaiBaoLopVaDoiTuong/src/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/CatDoi/J01010.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/CatDoi/J01010.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/SoNguyenTo/J01004.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/SoNguyenTo/J01004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/TinhSoFibonacci/J01006.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/TinhSoFibonacci/J01006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/UocSoNguyenToLonNhat/J01014.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/out/production/LapTrinhJavaCoBan/UocSoNguyenToLonNhat/J01014.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/CatDoi/J01010.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/CatDoi/J01010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/SoNguyenTo/J01004.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/SoNguyenTo/J01004.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/TinhSoFibonacci/J01006.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/TinhSoFibonacci/J01006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/UocSoNguyenToLonNhat/J01014.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LapTrinhJavaCoBan/src/UocSoNguyenToLonNhat/J01014.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/out/production/Mang/DemSoLanXuatHien/J02007.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/out/production/Mang/DemSoLanXuatHien/J02007.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/out/production/Mang/DemSoLanXuatHien/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/out/production/Mang/GiaoCuaHaiDaySo/J02005.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/out/production/Mang/GiaoCuaHaiDaySo/J02005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/out/production/Mang/HopCuaHaiDaySo/J02006.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/out/production/Mang/HopCuaHaiDaySo/J02006.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/src/BoBaSoPytago/J02016.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/src/BoBaSoPytago/J02016.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/src/DemSoLanXuatHien/J02007.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/src/DemSoLanXuatHien/J02007.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/src/GiaoCuaHaiDaySo/J02005.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/src/GiaoCuaHaiDaySo/J02005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mang/src/HopCuaHaiDaySo/J02006.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mang/src/HopCuaHaiDaySo/J02006.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/KetQuaXetTuyen/ThiSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/KetQuaXetTuyen/ThiSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/SapXepThoiGian/J05033.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/SapXepThoiGian/J05033.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/SapXepThoiGian/Time.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/SapXepThoiGian/Time.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/TimThuKhoaCuaKyThi/HocSinh.class" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/out/production/MangDoiTuong/TimThuKhoaCuaKyThi/HocSinh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/src/KetQuaXetTuyen/ThiSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/src/KetQuaXetTuyen/ThiSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepThoiGian/J05033.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepThoiGian/J05033.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepThoiGian/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/src/SapXepThoiGian/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/src/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/src/Test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MangDoiTuong/src/TimThuKhoaCuaKyThi/HocSinh.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MangDoiTuong/src/TimThuKhoaCuaKyThi/HocSinh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DiaChiEmail/J03010.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DiaChiEmail/J03010.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UocChungLonNhatCuaHaiSoNguyenLon/J03011.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UocChungLonNhatCuaHaiSoNguyenLon/J03011.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1yhUE5oJX6u7WOYIj23lNbaUtyf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -21,6 +445,86 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.J03040">
+    <configuration name="J01026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SoChinhPhuong.J01026" />
+      <module name="XauKyTu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SoChinhPhuong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J03038" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DanhDauChuCai.J03038" />
+      <module name="XauKyTu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DanhDauChuCai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J03039" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ChiaHet.J03039" />
+      <module name="XauKyTu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ChiaHet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J03040" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BienSoDep.J03040" />
+      <module name="XauKyTu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BienSoDep.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="J07003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TachDoiVaTinhTong.J07003" />
+      <module name="XauKyTu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TachDoiVaTinhTong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.J03040" />
+        <item itemvalue="Application.J03039" />
+        <item itemvalue="Application.J07003" />
+        <item itemvalue="Application.J01026" />
+        <item itemvalue="Application.J03038" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -31,10 +535,44 @@
       <option name="presentableId" value="Default" />
       <updated>1632703198740</updated>
       <workItem from="1632703200537" duration="4000" />
+      <workItem from="1632828108833" duration="82000" />
+      <workItem from="1632834125998" duration="225000" />
+      <workItem from="1632845559008" duration="1040000" />
+      <workItem from="1632846646969" duration="26000" />
+      <workItem from="1638077635031" duration="5649000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
   </component>
 </project>

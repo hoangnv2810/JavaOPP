@@ -31,14 +31,17 @@ public class Test {
 
 //        String result = String.format("%.2f", 1205.6358);
 //        System.out.println(result);
+//
+//        String s = Double.toString(20.0);
+//        int dot = s.indexOf('.');
+//        if(s.charAt(dot+1) == '0'){
+//            System.out.println(s.substring(0, dot));
+//        } else {
+//            System.out.println(s);
+//        }
 
-        String s = Double.toString(20.0);
-        int dot = s.indexOf('.');
-        if(s.charAt(dot+1) == '0'){
-            System.out.println(s.substring(0, dot));
-        } else {
-            System.out.println(s);
-        }
 
+        double a = -10.1235;
+        System.out.println((double) Math.round(a*1000)/1000);
     }
 }

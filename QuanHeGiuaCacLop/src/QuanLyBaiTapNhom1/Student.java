@@ -1,15 +1,24 @@
 package QuanLyBaiTapNhom1;
 
-public class SinhVien {
+public class Student {
     private String id;
     private String name;
     private String numberPhone;
-    private Group gp;
+    private String groupId;
 
-    public SinhVien(String id, String name, String numberPhone, Group gp) {
+    public Student(String id, String name, String numberPhone, String groupId) {
         this.id = id;
         this.name = name;
         this.numberPhone = numberPhone;
-        this.gp = gp;
+        this.groupId = groupId;
+    }
+
+    public String getGroupId() {
+        return groupId;
+    }
+
+    @Override
+    public String toString() {
+        return id + " " + name + " " + numberPhone;
     }
 }

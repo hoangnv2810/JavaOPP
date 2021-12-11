@@ -1,15 +1,15 @@
 package LopPair;
 
-public class Pair {
-    private int first;
-    private int second;
+public class Pair<T, S> {
+    private T first;
+    private S second;
 
-    public Pair(int first, int second) {
+    public Pair(T first, S second) {
         this.first = first;
         this.second = second;
     }
 
-    private boolean checkPrime(int n){
+    private boolean checkPrime(Integer n){
         if(n < 2){
             return false;
         }
@@ -20,7 +20,7 @@ public class Pair {
     }
 
     public boolean isPrime() {
-        return checkPrime(first) && checkPrime(second);
+        return checkPrime((Integer) first) && checkPrime((Integer) second);
     }
 
     @Override

@@ -13,7 +13,7 @@ public class HocSinh implements Comparable<HocSinh>{
     public HocSinh(int id, String name, String dob, float[] point) throws ParseException {
         this.id = id;
         this.name = name;
-        this.dob = new SimpleDateFormat("dd/MM/yyyy").parse(dob);
+        this.dob = new SimpleDateFormat("d/M/yyyy").parse(dob);
         this.point = point;
     }
 
@@ -34,7 +34,7 @@ public class HocSinh implements Comparable<HocSinh>{
 
     @Override
     public String toString() {
-        return id + " " + name + " " + new SimpleDateFormat("dd/MM/yyyy").format(dob) + " " + convert(tongDiem());
+        return id + " " + name + " " + new SimpleDateFormat("d/M/yyyy").format(dob) + " " + convert(tongDiem());
     }
 
     @Override

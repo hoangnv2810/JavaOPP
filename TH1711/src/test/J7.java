@@ -19,7 +19,7 @@ public class J7 {
         }
         ArrayList<Pair> res = new ArrayList<>();
         res.addAll(ts);
-        Collections.sort(res);
+//        Collections.sort(res);
         for(Pair p:res){
             System.out.println(p);
         }

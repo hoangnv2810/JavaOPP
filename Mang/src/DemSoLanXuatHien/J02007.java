@@ -3,9 +3,6 @@ package DemSoLanXuatHien;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-class Solution{
-
-}
 public class J02007 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

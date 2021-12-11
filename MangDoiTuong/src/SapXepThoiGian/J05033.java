@@ -11,7 +11,7 @@ public class J05033 {
         ArrayList<Time> listTime = new ArrayList<>();
         int t = Integer.parseInt(sc.nextLine());
         while(t-- > 0){
-            Time tmp = new Time(sc.nextLine());
+            Time tmp = new Time(sc.nextInt(), sc.nextInt(), sc.nextInt());
             listTime.add(tmp);
         }
         Collections.sort(listTime);

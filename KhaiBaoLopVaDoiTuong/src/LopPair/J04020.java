@@ -10,7 +10,8 @@ public class J04020 {
             int n = sc.nextInt();
             boolean check = false;
             for(int i = 2; i <= 2*Math.sqrt(n); i++){
-                Pair p = new Pair(i, n-i);
+//                Pair p = new Pair(i, n-i);
+                Pair<Integer, Integer> p = new Pair<>(i, n-i);
                 if(p.isPrime()){
                     System.out.println(p);
                     check = true;

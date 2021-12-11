@@ -2,7 +2,7 @@ package DiaChiEmail;
 
 import java.util.*;
 
-public class J03010 {
+public class    J03010 {
     static Map<String, Integer> mp = new HashMap<>();
     public static String chuaHoaEmail(String s){
         StringBuilder ans = new StringBuilder();

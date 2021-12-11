@@ -2,9 +2,6 @@ package KetQuaXetTuyen;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.Period;
-import java.util.Calendar;
 import java.util.Date;
 
 public class ThiSinh {
@@ -23,19 +20,11 @@ public class ThiSinh {
     }
 
     private int age(){
-        Calendar c = Calendar.getInstance();
-        c.setTime(dob);
-        int year = c.get(Calendar.YEAR);
-        int month = c.get(Calendar.MONTH)+1;
-        int date = c.get(Calendar.DATE);
-        LocalDate ld = LocalDate.of(year, month, date);
-        LocalDate now = LocalDate.now();
-        Period diff = Period.between(ld, now);
-        return diff.getYears();
+        return 2021 - dob.getYear() - 1900;
     }
 
     private double bonus(){
-        if(pointTheory >= 8 &&pointPractice >= 8){
+        if(pointTheory >= 8 && pointPractice >= 8){
             return 1;
         } else if(pointPractice >= 7.5 && pointTheory >= 7.5){
             return 0.5;
@@ -45,25 +34,26 @@ public class ThiSinh {
     }
 
     private int totalPoint(){
-        double ans = Math.round((pointPractice+pointTheory)/2 + bonus());
+        double tmp = (double) (pointTheory+pointPractice)/2 + bonus();
+        int ans = (int) Math.round(tmp);
         if(ans > 10){
             return 10;
         } else {
-            return (int) ans;
+            return ans;
         }
     }
 
     private String rank(){
-        if(totalPoint() < 5){
-            return "Truot";
-        } else if(totalPoint() >= 5 && totalPoint() <= 6){
-            return "Trung binh";
-        } else if(totalPoint() == 7){
-            return "Kha";
-        } else if(totalPoint() == 8){
-            return "Gioi";
-        } else {
+        if(totalPoint() >= 9){
             return "Xuat sac";
+        } else if(totalPoint() >= 8){
+            return "Gioi";
+        } else if(totalPoint() >= 7){
+            return "Kha";
+        } else if(totalPoint() >= 5){
+            return "Trung binh";
+        } else{
+            return "Truot";
         }
     }
 

@@ -12,6 +12,8 @@ public class Ex5 {
         Person a = new Person("Nguyen Van Hoang", "Ha Nam");
         ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream("out.txt"));
         out.writeObject(a);
+          Person b = new Person("Nguyen Van Hoang", "Ha Nam");
+        out.writeObject(b);
         out.close();
 
     }
