@@ -83,8 +83,11 @@ public class Test {
 //        long diff = date1.getTime()-date.getTime();
 //        int ngay = (int) (diff/(1000*60*60*24));
 //        System.out.println(ngay);
-        System.out.println(Math.round(5.5));
-
+//        System.out.println(Math.round(5.5));
+        Date d2 = new SimpleDateFormat("dd/MM/yyyy").parse("22/12/2021");
+        Date d1 = new SimpleDateFormat("dd/MM/yyyy").parse("05/11/2019");
+        long diff = d2.getTime()-d1.getTime();
+        System.out.println(diff/(1000*60*60*24));
 //        System.out.println(date.getHours()*60 + date.getMinutes());
 //        System.out.println(Math.round(120/(150/60)));
 //        System.out.println(sdf.format(date));

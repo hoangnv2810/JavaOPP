@@ -41,7 +41,7 @@ public class Test {
 //        }
 
 
-        double a = -10.1235;
+        double a = 10.1235;
         System.out.println((double) Math.round(a*1000)/1000);
     }
 }

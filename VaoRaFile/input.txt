@@ -1,3 +1,0 @@
-hello javafile 
-1 2 3 4456 999
-fwefaw

@@ -19,6 +19,6 @@ public class Triangle extends Point{
 
     public String getPerimeter(){
         double res = dictance(a, b) + dictance(b, c) + dictance(c, a);
-        return String.format ("%.3f",(double) Math.round(res*1000)/1000);
+        return String.valueOf((double) Math.round(res*1000)/1000);
     }
 }
